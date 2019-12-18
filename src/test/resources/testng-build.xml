@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="The tests that needs to run when I am building">
+    <test name="build tests">
+        <groups>
+            <run>
+                <include name="unittest"/>
+            </run>
+        </groups>
+        <packages>
+            <package name="com.codeinvestigator.*"></package>
+        </packages>
+        <classes></classes>
+    </test>
+</suite>

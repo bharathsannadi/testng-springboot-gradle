@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Test that our 3rd party apis are working">
+    <test name="integration tests.">
+        <groups>
+            <run>
+                <include name="integration"/>
+            </run>
+        </groups>
+        <packages>
+            <package name="com.codeinvestigator.*"></package>
+        </packages>
+        <classes></classes>
+    </test>
+
+
+
+</suite>
