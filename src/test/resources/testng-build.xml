@@ -4,8 +4,13 @@
 <suite name="The tests that needs to run when I am building">
     <test name="build tests">
         <groups>
-            <run>
+            <define name="whilebuilding">
                 <include name="unittest"/>
+                <include name="integration"/>
+            </define>
+            <run>
+                <include name="whilebuilding"/>
+                <exclude name="broken"/>
             </run>
         </groups>
         <packages>
