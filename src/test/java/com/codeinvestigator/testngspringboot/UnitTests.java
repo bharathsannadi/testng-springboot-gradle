@@ -5,8 +5,8 @@ import org.testng.annotations.Test;
 
 import static org.testng.Assert.*;
 
-@Test(groups = {"unittest", "broken"})
-public class MyUnitTests {
+@Test(groups = {"unittest"})
+public class UnitTests {
 
     @Test
     void myUnittest1(){
