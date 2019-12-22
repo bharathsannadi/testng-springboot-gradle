@@ -7,6 +7,8 @@
             <define name="whilebuilding">
                 <include name="unittest"/>
                 <include name="integration"/>
+                <include name="spring"/>
+                <include name="data"/>
             </define>
             <run>
                 <include name="whilebuilding"/>
@@ -15,6 +17,7 @@
         </groups>
         <packages>
             <package name="com.codeinvestigator.*"></package>
+            <package name="com.codeinvestigator.space.*"></package>
         </packages>
         <classes></classes>
     </test>
